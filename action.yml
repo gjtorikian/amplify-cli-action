@@ -46,6 +46,7 @@ runs:
     - ${{ inputs.delete_lock }}
     - ${{ inputs.amplify_cli_version }}
     - ${{ inputs.amplify_arguments }}
+    - ${{ inputs.amplify_project_name }}
 branding:
   icon: 'git-commit'
   color: 'orange'
