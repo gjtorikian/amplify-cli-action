@@ -33,6 +33,10 @@ inputs:
     description: 'additional arguments to pass to ampify_command defined command'
     required: false
     default: ''
+  amplify_project_name:
+    description: 'specified amplify project name'
+    required: true
+    default: ''
 runs:
   using: 'docker'
   image: 'docker://ghcr.io/ambientlight/amplify-cli-action/amplify-cli-action:0.3.0'
