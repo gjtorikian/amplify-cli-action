@@ -80,6 +80,7 @@ case $5 in
 
   add_env)
     AMPLIFY="{\
+    \"projectName\":\"$10\"\
     \"envName\":\"$6\"\
     }"
 
